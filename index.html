@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,48 @@
     <title>Penerbit Rupakata</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header class="bg-transparent absolute top-[10px] w-full flex items-center z-100">
-        <div class="container bg-slate-500 mx-[10px] rounded-lg">
+    <header class="bg-transparent top-[15px] w-full flex items-center justify-center z-[100] fixed">
+        <div class="container bg-slate-200 bg-opacity-60 mx-[15px] rounded-lg" style="backdrop-filter: blur(5px);">
             <div class="flex items-center justify-between relative">
-                <div class="px-4 py-4">
-                    <a href="#" class="font-bold text-lg text-white block"> Rupakata</a>
+                <div class="px-2 py-4">
+                    <a href="#" class="font-bold text-lg text-white block w-20">
+                        <img src="./img/logo-hitam.webp" alt="logo-rupakata">
+                    </a>
+                </div>
+                <div class="px-2">
+                    <button id="hamburger" name="hamburger" type="button"
+                        class="block absolute right-4 lg:hidden z-[200]">
+                        <span class="hamburger-line origin-top-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute bg-white dark:bg-slate-800 md:dark:bg-transparent shadow-lg z-[100] rounded-lg max-w-[200px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:shadow-none lg:max-w-full">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="list-menu">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="list-menu">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="list-menu">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="list-menu">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="list-menu">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
 </body>
+
 </html>

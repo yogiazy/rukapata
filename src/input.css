@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.list-menu {
+    @apply flex text-base text-dark p-2 mx-8 group-hover:text-primary hover:bg-primary hover:bg-opacity-5 hover:p-2 hover:rounded-md;
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[4px] my-[6px] block rounded-xl bg-dark2 transition duration-300 ease-in-out;
+}
+
+.hamburger-active > :nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > :nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > :nth-child(3) {
+    @apply -rotate-45;
+}
