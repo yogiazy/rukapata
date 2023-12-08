@@ -7,7 +7,7 @@ body {
 }
 
 .list-menu {
-    @apply flex text-base text-dark p-2 mx-8 group-hover:text-primary hover:bg-primary hover:bg-opacity-5 hover:p-2 hover:rounded-md;
+    @apply flex text-base w-0 hover:w-full hover:ease-linear hover:duration-300 text-dark p-2 mx-8 hover:text-yellow-800 hover:border-b-[1px] hover:border-yellow-800;
 }
 
 .hamburger-line {
