@@ -50,7 +50,7 @@ Author: GrayGrids
         navbarToggler.addEventListener('click', function () {
             navbarToggler.classList.toggle("active");
         });
-    }, 200);
+    }, 400);
 
     //======= portfolio-btn active
     var elements = document.getElementsByClassName("portfolio-btn");
