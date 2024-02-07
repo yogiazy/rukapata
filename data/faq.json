@@ -1,0 +1,24 @@
+{
+    "faq": [
+        {
+            "id": 1,
+            "question": "Kenapa harus menerbitkan buku di Penerbit Rupakata?",
+            "answer": "Rupakata dengan senang hati akan membantu penulis-penulis yang ingin menerbitkan bukunya secara mandiri dengan cara yang mudah dan asyik."
+        },
+        {
+            "id": 2,
+            "question": "Apa saja syarat menerbitkan naskah di Penerbit Rupakata?",
+            "answer": "Rupakata menerima semua naskah (utuh bukan on going) baik Novel, Cerpen, Puisi, maupun naskah Non Fiksi. Naskah ditulis dalam Ms Word dengan menggunakan font Times New Roman 12, spasi 1.5."
+        },
+        {
+            "id": 3,
+            "question": "Bagaimana cara mengirim naskah ke Penerbit Rupakata?",
+            "answer": "Naskah yang telah selesai ditulis disimpan dalam format .doc atau .docx kemudian di dikirim melalui email ke: redaksirupakata@gmail.com"
+        },
+        {
+            "id": 4,
+            "question": "Apa ada minimal cetak?",
+            "answer": "Tidak ada minimal cetak, penulis boleh mencetak 1 (satu) eksemplar saja."
+        }
+    ]
+}
