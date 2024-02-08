@@ -47,35 +47,33 @@ Author: GrayGrids
 
         // WOW active
         new WOW().init();
-        
+
         //===== mobile-menu-btn
         let navbarToggler = document.querySelector(".mobile-menu-btn");
         navbarToggler.addEventListener('click', function () {
             navbarToggler.classList.toggle("active");
         });
-    }, 400);
 
-    //======= portfolio-btn active
-    var elements = document.getElementsByClassName("portfolio-btn");
-    for (var i = 0; i < elements.length; i++) {
-        elements[i].onclick = function () {
+        //======= portfolio-btn active
+        var elements = document.getElementsByClassName("portfolio-btn");
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].onclick = function () {
 
-            // remove class from sibling
+                // remove class from sibling
 
-            var el = elements[0];
-            while (el) {
-                if (el.tagName === "BUTTON") {
-                    //remove class
-                    el.classList.remove("active");
+                var el = elements[0];
+                while (el) {
+                    if (el.tagName === "BUTTON") {
+                        //remove class
+                        el.classList.remove("active");
 
+                    }
+                    // pass to the new sibling
+                    el = el.nextSibling;
                 }
-                // pass to the new sibling
-                el = el.nextSibling;
-            }
 
-            this.classList.add("active");
-        };
-    }
-
-
+                this.classList.add("active");
+            };
+        }
+    }, 400);
 })();
