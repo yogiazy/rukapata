@@ -2524,7 +2524,7 @@ ol {
 .intro-video-area .intro-video-play .play-thumb a {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
   height: 80px;
   width: 80px;
   text-align: center;
@@ -2535,7 +2535,7 @@ ol {
   font-size: 22px;
   color: #fff;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+          transform: translate(-50%, -50%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
