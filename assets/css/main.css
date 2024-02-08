@@ -2524,7 +2524,7 @@ ol {
 .intro-video-area .intro-video-play .play-thumb a {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  top: 40%;
   height: 80px;
   width: 80px;
   text-align: center;
