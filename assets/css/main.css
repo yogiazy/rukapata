@@ -4750,7 +4750,7 @@ blockquote span {
 }
 
 .accordion-button:not(.collapsed) i::before {
-  content: "\eb2e";
+  content: "\eabc";
   font-family: lineIcons;
 }
 
