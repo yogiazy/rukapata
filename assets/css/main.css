@@ -4405,6 +4405,7 @@ blockquote span {
 
 .pricing-table .single-table .table-head .sub-title {
   margin-bottom: 30px;
+  color: #6d9215;
 }
 
 .pricing-table .single-table .table-head p {
@@ -4416,7 +4417,7 @@ blockquote span {
   font-weight: 700;
   display: inline-block;
   position: relative;
-  padding-left: 16px;
+  padding-left: 45px;
 }
 
 .pricing-table .single-table .table-head .price .amount .currency {
