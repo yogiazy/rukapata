@@ -1,0 +1,225 @@
+{
+    "buku": [
+        {
+            "id": "1",
+            "judul": "Perempuan Berkimono Merah Muda",
+            "penulis": "Dhani Pratiknyo",
+            "img": "../assets/images/buku/buku-1.jpg",
+            "jenis": "Cerpen",
+            "spesifikasi": {
+                "ukuran": "13x19 cm",
+                "type": "Softcover/Hardcover",
+                "halaman": "153 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp74.000",
+                "hardcover": "Rp86.000"
+            },
+            "sinopsis": "Perempuan Berkimono Merah Muda adalah kumpulan cerita fiksi mini yang ditulis Dhani Pratiknyo dalam rentang setahun terakhir Cerita dalam buku ini berkisah tentang banyak hal; sebagai tanda bahwa dalam waktu tertentu penulisnya menggemari atau memikirkan suatu hal kemudian ia tuliskan dalam bentuk fiksi mini. Terbitnya Perempuan Berkimono Merah Muda sekaligus menjadi kado untuk ulang tahun Dhani Pratiknyo yang ke-57. Tentu saja itu angka yang cukup banyak. Meski begitu, hal tersebut tak membuatnya kehilangan minat untuk terus menulis dan menulis."
+        },
+        {
+            "id": "2",
+            "judul": "Perkara Ingatan",
+            "penulis": "Dhani Pratiknyo",
+            "img": "../assets/images/buku/buku-2.jpg",
+            "jenis": "Cerpen",
+            "spesifikasi": {
+                "ukuran": "13x17 cm",
+                "type": "Softcover/Hardcover",
+                "halaman": "165 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp75.000",
+                "hardcover": "Rp85.000"
+            },
+            "sinopsis": "Sebagian orang melupakan sesuatu, secepat dia mengingatnya. Sementara sebagiannya lagi, bahkan ketika sudah berusaha sekeras apa pun untuk melakukannya, tetap saja tak bisa. Ingatan itu seperti kerak yang menempel di dinding dalam kepala, entah bagian mana. Dan jangankan menghapusnya, mendefinisikan rasanya pun akan kesulitan."
+        },
+        {
+            "id": "3",
+            "judul": "Ruang Tunggu",
+            "penulis": "Rahma Jadik",
+            "img": "../assets/images/buku/buku-3.jpg",
+            "jenis": "Fiksi",
+            "spesifikasi": {
+                "ukuran": "14.5x18 cm",
+                "type": "Hardcover",
+                "halaman": "85 Halaman"
+            },
+            "harga": {
+                "softcover": "-",
+                "hardcover": "Rp85.000"
+            },
+            "sinopsis": "Menunggu selalu saja tak pasti, itu yang setidaknya coba diungkapkan Rahma Jadik melalui buku ini. Buku yang berisi kumpulan kutipan bergambar ini berbicara mengenai ungkapan perasaan seorang remaja tentang segala kegalauannya. Tentang apa itu menunggu dan ditunggu."
+        },
+        {
+            "id": "4",
+            "judul": "Sebuah Senja yang Menyesakkan Pikiran",
+            "penulis": "Dhani Pratiknyo",
+            "img": "../assets/images/buku/buku-4.jpg",
+            "jenis": "Cerpen",
+            "spesifikasi": {
+                "ukuran": "14x20 cm",
+                "type": "Softcover/Hardcover",
+                "halaman": "227 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp85.000",
+                "hardcover": "Rp100.000"
+            },
+            "sinopsis": "Kenapa ragu dan malu hati, membuat seseorang pergi dan seseorang ditinggalkan? Kenapa jodoh kadang begitu rumit dicerna?"
+        },
+        {
+            "id": "5",
+            "judul": "Baliak: Panggilan Pulang",
+            "penulis": "Demi Stevany",
+            "img": "../assets/images/buku/buku-5.jpg",
+            "jenis": "Puisi",
+            "spesifikasi": {
+                "ukuran": "13x19 cm",
+                "type": "Softcover",
+                "halaman": "80 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp48.000",
+                "hardcover": "-"
+            },
+            "sinopsis": "Teruntuk kita semua, anak-anak yang selalu ingin pulang, tetapi tersauh pada tanah-tanah rantau. Kita yang sering dipaksa hati membicarakan semua sosok yang pernah merajut diri, tentang ibu, bapak, adik, kakak, kawan lama, dan rumah lahir. Semua dipita dengan warna-warni puisi-puisi indah yang akan membersihkan beberapa potongan gambar diri yang berdebu, untuk terang kembali, menghangatkan jiwa-jiwa indah yang dingin merindu. Kamu, aku, kita sama, yang membekukan beberapa waktu lewat memori, untuk nanti diceritakan lagi, maka buku ini sangat membantu ingat lewat puisi, puisi kita, kamu tak sendiri."
+        },
+        {
+            "id": "6",
+            "judul": "Cerita Bisu",
+            "penulis": "Mutyara Andini",
+            "img": "../assets/images/buku/buku-6.jpg",
+            "jenis": "Puisi",
+            "spesifikasi": {
+                "ukuran": "12x18 cm",
+                "type": "Softcover",
+                "halaman": "57 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp57.000",
+                "hardcover": "-"
+            },
+            "sinopsis": "Buku kumpulan puisi ini ditulis Mutyara Andini dalam masa-masa yang berat. Bapaknya pergi, dan ibunya memilki masalah serius dalam asmara. Hal semacam itu membuat puisi-puisinya getir, sekaligus menginterpretasikan apa-apa saja yang jadi kegelisahan seorang anak muda terhadap hidupnya."
+        },
+        {
+            "id": "7",
+            "judul": "Yogya Escape",
+            "penulis": "Dhani Pratiknyo",
+            "jenis": "Cerpen",
+            "img": "../assets/images/buku/buku-7.jpg",
+            "spesifikasi": {
+                "ukuran": "13x20 cm",
+                "type": "Softcover",
+                "halaman": "185 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp75.000",
+                "hardcover": "-"
+            },
+            "sinopsis": "Buku ini berisi 31 cerita pendek yang ditulis oleh Dhani Pratiknyo. Cerpen-cerpen dalam buku ini banyak bercerita tentang makanan, meski tak bisa dibilang buku kuliner, dan menjelaskan bagaiamana hubungan makanan dengan perasaan, manusia, hingga kenangan."
+        },
+        {
+            "id": "8",
+            "judul": "Karena AnugerahMu yang Kurindu",
+            "penulis": "Emy Agustini Sulaiman",
+            "img": "../assets/images/buku/buku-8.jpg",
+            "jenis": "Memoar",
+            "spesifikasi": {
+                "ukuran": "13x19 cm",
+                "type": "Softcover",
+                "halaman": "107 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp76.000",
+                "hardcover": "-"
+            },
+            "sinopsis": "'Karena AnugerahMu yang Kurindu', sebuah memoar terhadap rasa sakit dan kekecewaan seorang manusia dalam perjalanan hidupnya yang pada akhirnya menemukan sebuah anugerah cintaNya yang sesungguhnya."
+        },
+        {
+            "id": "9",
+            "judul": "Berita-Berita Nihil yang dibawa Pulang",
+            "penulis": "Inez Syawalytrie F, dkk",
+            "img": "../assets/images/buku/buku-9.jpg",
+            "jenis": "Puisi",
+            "spesifikasi": {
+                "ukuran": "13x19 cm",
+                "type": "Softcover",
+                "halaman": "128 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp63.500",
+                "hardcover": "-"
+            },
+            "sinopsis": "'Berita-Berita Nihil yang Dibawa Pulang' berisi kumpulan puisi terpilih dari event 'Bareng-Bareng Nulis Puisi' yang diselenggarakan oleh Rupakata."
+        },
+        {
+            "id": "10",
+            "judul": "Bapak yang Menyimpan Rindunya Diam-Diam",
+            "penulis": "Dhani Pratiknyo",
+            "img": "../assets/images/buku/buku-10.jpg",
+            "jenis": "Cerpen",
+            "spesifikasi": {
+                "ukuran": "14x20 cm",
+                "type": "Hardcover",
+                "halaman": "110 Halaman"
+            },
+            "harga": {
+                "softcover": "-",
+                "hardcover": "Rp85.000"
+            },
+            "sinopsis": "Berbicara mengenai hubungan antara bapak-ibu-anak seringkali membawa kita pada kisah-kisah haru, sekaligus problematika yang menyelimutinya. Dhani Pratiknyo melalui buku ini mencoba menghamparkan kepada kita bagaimana gejolak yang terjadi dalam rumah tangga secara terus terang. Ia seperti menelanjangi perkara-perkara yang selama ini tertutup rapat dan membukanya dengan bahasa yang sederhana."
+        },
+        {
+            "id": "11",
+            "judul": "Wibkhakta Punya Cerita",
+            "penulis": "Shayra A, dkk",
+            "img": "../assets/images/buku/buku-11.jpg",
+            "jenis": "Cerpen",
+            "spesifikasi": {
+                "ukuran": "14x20 cm",
+                "type": "Softcover",
+                "halaman": "110 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp67.500",
+                "hardcover": "-"
+            },
+            "sinopsis": "Masa SMA seringkali memberikan hal-hal emosional yang kemudian kita sebut sebagai kenangan. Masa-masa itu, coba dibangkitkan kembali lewat tulisan yang dikerjakan secara kolektif oleh murid-murid SMAN 7 Yogyakarta. Buku ini menjadi semacam rekaman jejak bahwa orang-orang, muda dan mudi, pernah berada pada masa putih-abu, dan menjadi langkah awal perjalanan hidup mereka."
+        },
+        {
+            "id": "12",
+            "judul": "Perayaan Lahir dan Puisi-Puisi Lainnya",
+            "penulis": "Nishaaj SN",
+            "img": "../assets/images/buku/buku-12.jpg",
+            "jenis": "Puisi",
+            "spesifikasi": {
+                "ukuran": "13x19 cm",
+                "type": "Softcover",
+                "halaman": "57 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp59.00",
+                "hardcover": "-"
+            },
+            "sinopsis": "Buku puisi ini ditulis Nishaaj selama masa berkabung. Puisi-puisinya berbicara sekitar kemiskinan, kesepian, perempuan, kematian, anak-anak, masa lalu, kucing ... dan serba-neka keresahan dalam hidupnya."
+        },
+        {
+            "id": "13",
+            "judul": "Buku Bukan Perempuan Biasa",
+            "penulis": "Yekti Pitoyo, dkk",
+            "img": "../assets/images/buku/buku-13.jpg",
+            "jenis": "Cerpen",
+            "spesifikasi": {
+                "ukuran": "14x20 cm",
+                "type": "Softcover",
+                "halaman": "57 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp68.000",
+                "hardcover": "-"
+            },
+            "sinopsis": "Buku ini ditulis oleh tujuh perempuan yang tergabung dalam komunitas Pena Perajut Aksara. Berisi kumpulan cerita yang berbicara dari sudut pandang perempuan; problematika diri, sosial, keluarga, agama."
+        }
+    ]
+}
