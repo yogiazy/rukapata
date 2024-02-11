@@ -1832,10 +1832,11 @@ ol {
 
 .mobile-menu-btn .toggler-icon {
   width: 30px;
-  height: 2px;
+  height: 3px;
+  border-radius: 5px;
   background-color: #222;
   display: block;
-  margin: 5px 0;
+  margin: 6px 0;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -1844,7 +1845,7 @@ ol {
 .mobile-menu-btn.active .toggler-icon:nth-of-type(1) {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  top: 7px;
+  top: 9px;
 }
 
 .mobile-menu-btn.active .toggler-icon:nth-of-type(2) {
@@ -1854,7 +1855,7 @@ ol {
 .mobile-menu-btn.active .toggler-icon:nth-of-type(3) {
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
-  top: -7px;
+  top: -9px;
 }
 
 .navbar-nav .nav-item {
