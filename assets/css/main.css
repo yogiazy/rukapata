@@ -1835,9 +1835,9 @@ ol {
 
 .mobile-menu-btn .toggler-icon {
   width: 30px;
-  height: 4px;
+  height: 3px;
   border-radius: 5px;
-  background-color: #222;
+  background-color: var(--primary-color);
   display: block;
   margin: 2px 0;
   position: relative;
