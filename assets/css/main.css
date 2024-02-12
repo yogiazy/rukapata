@@ -4472,7 +4472,7 @@ blockquote span {
   position: absolute;
   left: 0;
   top: 0;
-  content: "\ea5a";
+  content: "\ead2";
   font-family: lineIcons;
   color: #68D585;
   font-size: 15px;
@@ -4484,7 +4484,7 @@ blockquote span {
 
 .pricing-table .single-table .table-content .table-list li.disable::before {
   color: #727272;
-  content: "\ea87";
+  content: "\eacd";
 }
 
 /*======================================
