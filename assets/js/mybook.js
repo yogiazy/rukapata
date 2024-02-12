@@ -36,7 +36,11 @@ async function getBook() {
             const span = document.createElement('span');
             span.textContent = y[i].judul;
             const h4 = document.createElement('h4');
-            h4.textContent = y[i].harga.softcover;
+            if (y[i].harga.softcover === "-") {
+                h4.textContent = y[i].harga.hardcover;
+            } else {
+                h4.textContent = y[i].harga.softcover;
+            }
             overlayContent.appendChild(span);
             overlayContent.appendChild(h4);
 
