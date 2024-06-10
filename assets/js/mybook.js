@@ -1,6 +1,6 @@
 async function getBook() {
     try {
-        const response = await fetch(`./data/buku.json`);
+        const response = await fetch(`../data/buku.json`);
         if (!response.ok) {
             throw new Error(`Failed to fetch component: ${response.status}`);
         }

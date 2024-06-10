@@ -6,6 +6,7 @@
             "penulis": "Dhani Pratiknyo",
             "img": "../assets/images/buku/buku-1.jpg",
             "jenis": "Cerpen",
+            "link": "perempuan-berkimono-merah-muda",
             "spesifikasi": {
                 "ukuran": "13x19 cm",
                 "type": "Softcover/Hardcover",
@@ -23,6 +24,7 @@
             "penulis": "Dhani Pratiknyo",
             "img": "../assets/images/buku/buku-2.jpg",
             "jenis": "Cerpen",
+            "link": "perkara-ingatan",
             "spesifikasi": {
                 "ukuran": "13x17 cm",
                 "type": "Softcover/Hardcover",
@@ -40,6 +42,7 @@
             "penulis": "Rahma Jadik",
             "img": "../assets/images/buku/buku-3.jpg",
             "jenis": "Fiksi",
+            "link": "ruang-tunggu",
             "spesifikasi": {
                 "ukuran": "14.5x18 cm",
                 "type": "Hardcover",
@@ -57,6 +60,7 @@
             "penulis": "Dhani Pratiknyo",
             "img": "../assets/images/buku/buku-4.jpg",
             "jenis": "Cerpen",
+            "link": "sebuah-senja-yang-menyesakkan-pikiran",
             "spesifikasi": {
                 "ukuran": "14x20 cm",
                 "type": "Softcover/Hardcover",
@@ -74,6 +78,7 @@
             "penulis": "Demi Stevany",
             "img": "../assets/images/buku/buku-5.jpg",
             "jenis": "Puisi",
+            "link": "baliak-panggilan-pulang",
             "spesifikasi": {
                 "ukuran": "13x19 cm",
                 "type": "Softcover",
@@ -91,6 +96,7 @@
             "penulis": "Mutyara Andini",
             "img": "../assets/images/buku/buku-6.jpg",
             "jenis": "Puisi",
+            "link": "cerita-bisu",
             "spesifikasi": {
                 "ukuran": "12x18 cm",
                 "type": "Softcover",
@@ -106,8 +112,9 @@
             "id": 7,
             "judul": "Yogya Escape",
             "penulis": "Dhani Pratiknyo",
-            "jenis": "Cerpen",
             "img": "../assets/images/buku/buku-7.jpg",
+            "jenis": "Cerpen",
+            "link": "yogya-escape",
             "spesifikasi": {
                 "ukuran": "13x20 cm",
                 "type": "Softcover",
@@ -125,6 +132,7 @@
             "penulis": "Emy Agustini Sulaiman",
             "img": "../assets/images/buku/buku-8.jpg",
             "jenis": "Memoar",
+            "link": "karena-anugerahmu-yang-kurindu",
             "spesifikasi": {
                 "ukuran": "13x19 cm",
                 "type": "Softcover",
@@ -142,6 +150,7 @@
             "penulis": "Inez Syawalytrie F, dkk",
             "img": "../assets/images/buku/buku-9.jpg",
             "jenis": "Puisi",
+            "link": "berita-berita-nihil-yang-dibawa-pulang",
             "spesifikasi": {
                 "ukuran": "13x19 cm",
                 "type": "Softcover",
@@ -159,6 +168,7 @@
             "penulis": "Dhani Pratiknyo",
             "img": "../assets/images/buku/buku-10.jpg",
             "jenis": "Cerpen",
+            "link": "bapak-yang-menyimpan-rindunya-diam-diam",
             "spesifikasi": {
                 "ukuran": "14x20 cm",
                 "type": "Hardcover",
@@ -176,6 +186,7 @@
             "penulis": "Shayra A, dkk",
             "img": "../assets/images/buku/buku-11.jpg",
             "jenis": "Cerpen",
+            "link": "wibkhakta-punya-cerita",
             "spesifikasi": {
                 "ukuran": "14x20 cm",
                 "type": "Softcover",
@@ -193,6 +204,7 @@
             "penulis": "Nishaaj SN",
             "img": "../assets/images/buku/buku-12.jpg",
             "jenis": "Puisi",
+            "link": "perayaan-lahir-dan-puisi-puisi-lainnya",
             "spesifikasi": {
                 "ukuran": "13x19 cm",
                 "type": "Softcover",
@@ -210,6 +222,7 @@
             "penulis": "Yekti Pitoyo, dkk",
             "img": "../assets/images/buku/buku-13.jpg",
             "jenis": "Cerpen",
+            "link": "buku-bukan-perempuan-biasa",
             "spesifikasi": {
                 "ukuran": "14x20 cm",
                 "type": "Softcover",
