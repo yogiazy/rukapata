@@ -5344,3 +5344,50 @@ blockquote span {
 .footer .copyright-area p a:hover {
   color: var(--primary-color);
 }
+
+.foto-thumbnail {
+  margin-top: -100px;
+  z-index: 9;
+}
+
+.foto-thumbnail-buku {
+  margin-top: -50px;
+  z-index: 9;
+}
+
+@media (min-width: 767px) {
+  .foto-thumbnail {
+    margin-top: -250px;
+    z-index: 9;
+  }
+
+  .foto-thumbnail-buku {
+    margin-top: -100px;
+    z-index: 9;
+  }
+  
+  .spacer {
+    background-color: #5a5a5ad0;
+    width: 100%;
+    height: 2px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.harga {
+  background-color: #929078a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #333;
+  width: 200px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.spacer {
+  margin-bottom: 20px;
+}

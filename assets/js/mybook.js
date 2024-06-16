@@ -10,9 +10,10 @@ async function getBook() {
 
         for (i = 0; i < y.length; i++) {
             // Create parent container
-            const parentDiv = document.createElement('div');
+            const parentDiv = document.createElement('a');
             parentDiv.id = `buku-${y[i].id}`;
             parentDiv.classList.add('col-lg-4', 'col-md-6', 'grid-item', `${y[i].jenis}`);
+            parentDiv.href = `../../buku/${y[i].link}`;
 
             // Create portfolio item wrapper
             const portfolioItemWrapper = document.createElement('div');

@@ -1,7 +1,7 @@
 async function addComponent(id, comp) {
     try {
         const myHeader = document.getElementById(id);
-        const response = await fetch(`../component/${comp}.html`);
+        const response = await fetch(`../../component/${comp}.html`);
 
         if (!response.ok) {
             throw new Error(`Failed to fetch component: ${response.status}`);

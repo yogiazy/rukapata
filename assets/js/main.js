@@ -27,10 +27,10 @@ Author: GrayGrids
             var logo = document.querySelector('.navbar-brand img')
             if (window.pageYOffset > sticky) {
                 header_navbar.classList.add("sticky");
-                logo.src = '../assets/images/logo/logo.svg';
+                logo.src = '../../assets/images/logo/logo.svg';
             } else {
                 header_navbar.classList.remove("sticky");
-                logo.src = '../assets/images/logo/white-logo.svg';
+                logo.src = '../../assets/images/logo/white-logo.svg';
             }
 
             // show or hide the back-top-top button
@@ -77,3 +77,17 @@ Author: GrayGrids
         }
     }, 400);
 })();
+
+
+document.getElementById('wa-button').addEventListener('click', function () {
+    document.getElementById('wa-button').target = "_blank";
+    var title = document.querySelector('.post-title').innerText;
+    var author = document.querySelector('.meta-info li:nth-child(1) a').innerText.replace('Penulis: ', '');
+    var price = document.querySelector('.harga div').innerText;
+
+    var message = `Saya mau pesan buku ini,\n\nJudul: ${title}\nPenulis: ${author}\nHarga: ${price}`;
+    var encodedMessage = encodeURIComponent(message);
+    var waUrl = `https://wa.me/6289514703132?text=${encodedMessage}`;
+
+    window.location.href = waUrl;
+});
