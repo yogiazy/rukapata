@@ -40,7 +40,7 @@ async function getBook() {
             if (y[i].harga.softcover === "-") {
                 h4.textContent = y[i].harga.hardcover;
             } else {
-                h4.textContent = y[i].harga.softcover;
+                h4.textContent = y[i].harga.hardcover;
             }
             overlayContent.appendChild(span);
             overlayContent.appendChild(h4);
