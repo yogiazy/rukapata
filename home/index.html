@@ -429,9 +429,10 @@
         document.getElementById("shopee-link").addEventListener("click", function () {
             window.location.href = "https://shopee.co.id/bukurupakata";
         });
-
-        addComponent("myFaq", "faq");
-        addComponent("myBook", "book");
+        setTimeout(() => {
+            addComponent("myFaq", "faq");
+            addComponent("myBook", "book");
+        }, 400);
     </script>
 </body>
 
