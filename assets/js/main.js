@@ -78,16 +78,21 @@ Author: GrayGrids
     }, 400);
 })();
 
+if (document.getElementById('wa-button')) {
+    document.getElementById('wa-button').addEventListener('click', function () {
+        document.getElementById('wa-button').target = "_blank";
+        var title = document.querySelector('.post-title').innerText;
+        var author = document.querySelector('.meta-info li:nth-child(1) a').innerText.replace('Penulis: ', '');
+        var price = document.querySelector('.harga div').innerText;
+    
+        var message = `Saya mau pesan buku ini,\n\nJudul: ${title}\nPenulis: ${author}\nHarga: ${price}`;
+        var encodedMessage = encodeURIComponent(message);
+        var waUrl = `https://wa.me/6289514703132?text=${encodedMessage}`;
+    
+        window.location.href = waUrl;
+    });
+}
 
-document.getElementById('wa-button').addEventListener('click', function () {
-    document.getElementById('wa-button').target = "_blank";
-    var title = document.querySelector('.post-title').innerText;
-    var author = document.querySelector('.meta-info li:nth-child(1) a').innerText.replace('Penulis: ', '');
-    var price = document.querySelector('.harga div').innerText;
-
-    var message = `Saya mau pesan buku ini,\n\nJudul: ${title}\nPenulis: ${author}\nHarga: ${price}`;
-    var encodedMessage = encodeURIComponent(message);
-    var waUrl = `https://wa.me/6289514703132?text=${encodedMessage}`;
-
-    window.location.href = waUrl;
-});
+setTimeout(() => {
+    document.getElementById('thisYear').textContent = new Date().getFullYear();
+}, 1000);
