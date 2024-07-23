@@ -11,9 +11,9 @@ async function getBook() {
         for (i = 0; i < y.length; i++) {
             // Create parent container
             const parentDiv = document.createElement('a');
-            parentDiv.id = `buku-${y[(y.length-1)-i].id}`;
-            parentDiv.classList.add('col-lg-4', 'col-md-6', 'grid-item', `${y[(y.length-1)-i].jenis}`);
-            parentDiv.href = `../../buku/${y[(y.length-1)-i].link}`;
+            parentDiv.id = `buku-${y[(y.length - 1) - i].id}`;
+            parentDiv.classList.add('col-lg-4', 'col-md-6', 'grid-item', `${y[(y.length - 1) - i].jenis}`);
+            parentDiv.href = `../../buku/${y[(y.length - 1) - i].link}`;
 
             // Create portfolio item wrapper
             const portfolioItemWrapper = document.createElement('div');
@@ -23,7 +23,7 @@ async function getBook() {
             const portfolioImg = document.createElement('div');
             portfolioImg.classList.add('portfolio-img');
             const img = document.createElement('img');
-            img.src = y[(y.length-1)-i].img;
+            img.src = y[(y.length - 1) - i].img;
             img.alt = '';
             portfolioImg.appendChild(img);
 
@@ -35,12 +35,12 @@ async function getBook() {
             const overlayContent = document.createElement('div');
             overlayContent.classList.add('overlay-content');
             const span = document.createElement('span');
-            span.textContent = y[(y.length-1)-i].judul;
+            span.textContent = y[(y.length - 1) - i].judul;
             const h4 = document.createElement('h4');
-            if (y[(y.length-1)-i].harga.hardcover === "-") {
-                h4.textContent = y[(y.length-1)-i].harga.softcover;
+            if (y[(y.length - 1) - i].harga.hardcover === "-") {
+                h4.textContent = y[(y.length - 1) - i].harga.softcover;
             } else {
-                h4.textContent = y[(y.length-1)-i].harga.hardcover;
+                h4.textContent = y[(y.length - 1) - i].harga.hardcover;
             }
             overlayContent.appendChild(span);
             overlayContent.appendChild(h4);
