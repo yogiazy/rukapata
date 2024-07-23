@@ -233,6 +233,24 @@
                 "hardcover": "-"
             },
             "sinopsis": "Buku ini ditulis oleh tujuh perempuan yang tergabung dalam komunitas Pena Perajut Aksara. Berisi kumpulan cerita yang berbicara dari sudut pandang perempuan; problematika diri, sosial, keluarga, agama."
+        },
+        {
+            "id": 14,
+            "judul": "Serenade Titik Nol: Cinta tak Seharusnya Pergi",
+            "penulis": "Mell Shaliha",
+            "img": "../assets/images/buku/buku-14.jpg",
+            "jenis": "Novel",
+            "link": "serenade-titik-nol",
+            "spesifikasi": {
+                "ukuran": "14.8x20 cm",
+                "type": "Softcover",
+                "halaman": "229 Halaman"
+            },
+            "harga": {
+                "softcover": "Rp72.000",
+                "hardcover": "-"
+            },
+            "sinopsis": "Buku ini ditulis oleh tujuh perempuan yang tergabung dalam komunitas Pena Perajut Aksara. Berisi kumpulan cerita yang berbicara dari sudut pandang perempuan; problematika diri, sosial, keluarga, agama."
         }
     ]
 }

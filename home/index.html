@@ -38,27 +38,40 @@
     <section class="hero-area">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="hero-content">
-                        <h4 class="wow fadeInUp" data-wow-delay=".2s">Selamat Datang di Penerbit Rupakata</h4>
-                        <h1 class="wow fadeInUp" data-wow-delay=".4s">Ruang Tunggu</h1>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Menunggu selalu saja tak pasti, itu yang
-                            setidaknya coba diungkapkan Rahma Jadik melalui buku ini.
-                            <br> <span style="font-style: italic;">Penulis: Rahma Jadik</span>.
-                        </p>
-                        <div class="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="../tentang-kami/" class="btn ">Pelajari lebih lanjut</a>
+                <div class="hero-slider-buku col-12 pb-0">
+                    <div id="hero-serenade">
+                        <div class="hero-content col-lg-6 col-12">
+                            <h4 class="wow fadeInUp" data-wow-delay=".2s">Penerbit Rupakata</h4>
+                            <h1 class="wow fadeInUp" data-wow-delay=".4s">Serenade Titik Nol: Cinta Tak Seharusnya Pergi
+                            </h1>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Titik Nol Kilometer, kawasan wisata di pusat
+                                kota Yogyakarta, menjadi tempat mengais rezeki bersama kalangan marginal yang mempunyai
+                                mimpi besar.
+                                <br> <span style="font-style: italic;">Penulis: Mell Shaliha</span>.
+                            </p>
+                            <div class="button wow fadeInUp" data-wow-delay=".8s">
+                                <a href="../buku/serenade-titik-nol/" class="btn ">Pelajari lebih lanjut</a>
+                            </div>
+                        </div>
+                        <div class="tiny-image">
+                            <img class="fit-image" src="../assets/images/hero/serenade-titik-nol.webp" alt="#">
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="mobile-hero-image">
-                        <img class="mobile-main-image" src="../assets/images/hero/ruang-tunggu.webp" alt="#">
-                    </div>
-                </div>
-                <div class="col-lg-7 col-12">
-                    <div class="hero-image">
-                        <img class="main-image" src="../assets/images/hero/ruang-tunggu.webp" alt="#">
+                    <div id="hero-ruangtunggu">
+                        <div class="hero-content col-lg-6 col-12">
+                            <h4 class="wow fadeInUp" data-wow-delay=".2s">Penerbit Rupakata</h4>
+                            <h1 class="wow fadeInUp" data-wow-delay=".4s">Ruang Tunggu</h1>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Menunggu selalu saja tak pasti, itu yang
+                                setidaknya coba diungkapkan Rahma Jadik melalui buku ini.
+                                <br> <span style="font-style: italic;">Penulis: Rahma Jadik</span>.
+                            </p>
+                            <div class="button wow fadeInUp" data-wow-delay=".8s">
+                                <a href="../buku/ruang-tunggu/" class="btn ">Pelajari lebih lanjut</a>
+                            </div>
+                        </div>
+                        <div class="tiny-image">
+                            <img class="fit-image" src="../assets/images/hero/ruang-tunggu.webp" alt="#">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,8 +101,8 @@
                                     segala kegalauannya. Tentang apa itu menunggu dan ditunggu.</p>
                             </div>
                             <div class="intro-video-play" style="text-align: center;">
-                                <img class="ruangtunggu" width="70%" src="./../assets/images/video/ruang-tunggu-video.png"
-                                    alt="">
+                                <img class="ruangtunggu" width="70%"
+                                    src="./../assets/images/video/ruang-tunggu-video.png" alt="">
                                 <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
                                     <a href="https://www.youtube.com/watch?v=FBqLOw2DCHU" class="glightbox video"><i
                                             class="lni lni-play"></i></a>
@@ -433,6 +446,27 @@
             addComponent("myFaq", "faq");
             addComponent("myBook", "book");
         }, 400);
+    </script>
+    <script>
+        tns({
+            container: '.hero-slider-buku',
+            items: 1,
+            slideBy: 'page',
+            autoplay: true,
+            mouseDrag: true,
+            gutter: 0,
+            nav: true,
+            controls: true,
+        });
+
+        var cu1 = new counterUp({
+            start: 0,
+            duration: 2000,
+            intvalues: true,
+            interval: 100,
+            append: " ",
+        });
+        cu1.start();
     </script>
 </body>
 

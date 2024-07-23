@@ -2279,7 +2279,7 @@ ol {
 
 .mobile-hero-image .mobile-main-image {
   width: 854px;
-  margin-bottom: -9vh;
+  margin-bottom: -10vh;
   margin-top: -10vh;
 }
 
@@ -5390,4 +5390,22 @@ blockquote span {
 
 .spacer {
   margin-bottom: 20px;
+}
+
+.tiny-image {
+  display: block;
+  position: relative;
+}
+
+@media (min-width: 1500px) {
+  .tiny-image {
+    display: block;
+    position: absolute;
+    top: 50px;
+    padding-left: 625px;
+  }
+
+  .fit-image {
+    height: 700px;
+  }
 }
