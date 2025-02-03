@@ -6,7 +6,7 @@ async function getBook() {
         }
         const d = await response.text();
         const y = JSON.parse(d).buku;
-        console.log(y[0]);
+        // console.log(y[0]);
 
         for (i = 0; i < y.length; i++) {
             // Create parent container
